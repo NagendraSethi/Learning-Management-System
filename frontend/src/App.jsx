@@ -1,15 +1,11 @@
-
-import { useEffect } from 'react'
 import './App.css'
-import toast from 'react-hot-toast'
+import Home from './pages/Home'
 
 
 function App() {
 
   return (
-    <h1 className='text-3xl font-bold underline'>
-      Hello World
-    </h1>
+   <Home/>
   )
 }
 
